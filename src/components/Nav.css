@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #EB5757;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    width: 297px;
+    height: 40px;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 16px;
+    flex-grow: 1;
+  }
+  
+  .search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .search-bar img.loop {
+    width: 16px;
+    height: 16px;
+  }
+  
